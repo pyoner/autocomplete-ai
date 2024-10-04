@@ -1,19 +1,23 @@
 {
-  "name": "bun-ts-starter",
+  "name": "autocomplete-ai",
   "type": "module",
-  "version": "0.4.0",
-  "description": "A simple TypeScript starter kit using Bun.",
-  "author": "Chris Breuer <chris@stacksjs.org>",
+  "version": "0.1.0",
+  "description": "Autocomplete AI library.",
+  "author": "Askar Yusupov",
   "license": "MIT",
-  "homepage": "https://github.com/stacksjs/ts-starter#readme",
+  "homepage": "https://github.com/pyoner/autocomplete-ai",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/stacksjs/ts-starter.git"
+    "url": "git+https://github.com/pyoner/autocomplete-ai.git"
   },
   "bugs": {
-    "url": "https://github.com/stacksjs/ts-starter/issues"
+    "url": "https://github.com/pyoner/autocomplete-ai/issues"
   },
-  "keywords": ["typescript", "starter", "kit", "bun", "package"],
+  "keywords": [
+    "typescript",
+    "autocomplete",
+    "ai"
+  ],
   "exports": {
     ".": {
       "bun": "./src/index.ts",
@@ -27,7 +31,10 @@
   },
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
-  "files": ["dist", "src"],
+  "files": [
+    "dist",
+    "src"
+  ],
   "scripts": {
     "build": "bun --bun build.ts",
     "lint": "biome check .",
